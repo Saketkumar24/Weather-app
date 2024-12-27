@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <div class="weather-container">
+            <div class="weather-card">
+                <div class="weather-header">
+                    <h1>Weather App</h1>
+                </div>
+
+                <div class="weather-body">
+                    <!-- Location Input -->
+                    <div class="location">
+                        <input type="text" id="location-input"
+                            placeholder="Enter City" />
+                        <button id="get-weather">Get Weather</button>
+                    </div>
+
+                    <!-- Weather Information -->
+                    <div class="weather-info">
+                        <h2 id="location-name">City, Country</h2>
+                        <div class="temperature">
+                            <h3 id="temp">-- °C</h3>
+                            <p id="weather-type">--</p>
+                        </div>
+                        <div class="additional-info">
+                            <p id="humidity">Humidity: --</p>
+                            <p id="wind-speed">Wind: -- km/h</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="weather-footer">
+                    <p>&#169; 2024 Weather App</p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
